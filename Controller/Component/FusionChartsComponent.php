@@ -37,7 +37,7 @@ class FusionChartsComponent extends Component
 		$this->settings = $settings;
 	}
 
-	public function initialize($controller)
+	public function initialize(Controller $controller)
 	{
 		$_settings = $this->defaultSettings;
 
@@ -51,7 +51,7 @@ class FusionChartsComponent extends Component
 		App::import('Vendor', 'FusionCharts.FusionCharts', true, array(), 'FusionCharts_Gen.php');
 	}
 
-	public function beforeRender($controller)
+	public function beforeRender(Controller $controller)
 	{
 		$this->Session->write('FusionChartsPlugin.Charts', $this->charts);
 	}
