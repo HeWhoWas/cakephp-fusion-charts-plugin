@@ -1,0 +1,10 @@
+{
+  "name": "hewhowas/cakephp-fusion-charts",
+  "type": "cakephp-plugin",
+  "keywords": ["cakephp", "charts"],
+  "homepage": "https://github.com/HeWhoWas/cakephp-fusion-charts-plugin",
+  "license": "MIT",
+  "require": {
+    "cakephp/cakephp": "~2"
+  }
+}
